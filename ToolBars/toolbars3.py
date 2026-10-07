@@ -40,6 +40,24 @@ class MainWindow(QMainWindow):
         barra.addSeparator()
         barra.addWidget(QCheckBox("Seleccion"))
 
+        menu = self.menuBar()
+
+        menu_archivo = menu.addMenu("&Archivo")
+        menu_editar = menu.addMenu("&Editar")
+        menu_insertar = menu.addMenu("Insertar")
+
+        menu_archivo.addAction(boton)
+        menu_archivo.addAction(boton2)
+
+        menu_archivo.addSeparator()
+
+        #  Añadiendo un menu dentro de otro menu, en este caso añadiendo un menu en "menu_archivo"
+        menu_mas = menu_archivo.addMenu("Mas")
+
+        menu_mas.addAction(boton)
+        menu_mas.addAction(boton2)
+        
+
 
         self.setStatusBar(QStatusBar(self))
 
