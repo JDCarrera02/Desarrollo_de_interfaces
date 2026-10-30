@@ -1,0 +1,30 @@
+QLabel{
+    font-family: Tahoma;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+QPushButton {
+    background-color: red;
+}
+
+QTextEdit {
+
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+    margin: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.QWidget {
+    background-color: rgb(190, 233, 241);
+}
+
+QPushButton#pushButton_2{
+    background-color: green;
+}
