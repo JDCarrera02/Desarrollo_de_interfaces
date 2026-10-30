@@ -12,4 +12,4 @@ class Color(QWidget):
         paleta = self.palette()
 
         paleta.setColor(QPalette.ColorRole.Window, QColor(color))
-        self .setPalette(paleta)
+        self.setPalette(paleta)
