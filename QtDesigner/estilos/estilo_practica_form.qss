@@ -1,0 +1,11 @@
+QPushButton:hover {
+    background-color: red;
+}
+
+QPushButton:pressed {
+    background-color: yellow;
+}
+
+QRadioButton:checked {
+    background-color: green;
+}

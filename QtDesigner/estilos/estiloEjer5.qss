@@ -1,0 +1,17 @@
+QLabel{
+    background-color: grey;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+QPushButton[text= "ON"]{
+    background-color: green;
+    color: white;
+}
+
+QPushButton[text= "OF"]{
+    background-color: red;
+    color: white;
+}
