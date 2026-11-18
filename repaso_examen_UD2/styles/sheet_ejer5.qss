@@ -1,0 +1,36 @@
+QLabel{
+    background-color: aliceblue;
+    padding: 12px;
+    margin: 2px;
+    color: black;
+}
+
+QPushButton{
+    background-color: aliceblue;
+    font-weight: bold;
+    color: black;
+    border-width: 3px;
+    border-radius: 6px;
+    border-style: solid;
+    border-color: black;
+    padding: 12px;
+}
+
+QPushButton[text='+']{
+    color: aliceblue;
+    background-color: blue;
+}
+
+QPushButton[text='=']{
+    color: aliceblue;
+    background-color: blue;
+    
+}
+
+QPushButton[text='CE']{
+    color: aliceblue;
+    background-color: blue;
+}
+
+
+

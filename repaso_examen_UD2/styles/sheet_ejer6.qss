@@ -1,0 +1,20 @@
+QLabel{
+    background-color: grey;
+    font-weight: bold;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+QLabel#label{
+    padding: 3px;
+}
+
+QPushButton[text='ON']{
+    color: aliceblue;
+    background-color: green;
+}
+
+QPushButton[text='OFF']{
+    color: aliceblue;
+    background-color: red;
+}

@@ -1,0 +1,11 @@
+QPushButton#pushButton{
+    background-color: orange;
+    color: black;
+    font-weight: bold;
+}
+
+QLabel#label_4{
+    background-color: aqua;
+    font-weight: bold;
+    color: black;
+}
